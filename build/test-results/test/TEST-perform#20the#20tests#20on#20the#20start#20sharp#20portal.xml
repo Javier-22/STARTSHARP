@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="perform the tests on the start sharp portal" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-03T13:43:42" hostname="DESKTOP-C26UPPD" time="35.469">
+  <properties/>
+  <testcase name="schedule a meeting with the minimum required" classname="perform the tests on the start sharp portal" time="35.469"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@385e36d4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@479111ba
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7d97e06c
+feb. 03, 2023 8:43:43 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 62595
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1675431824.632][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
+feb. 03, 2023 8:43:44 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3ad847f8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5c5c7cc4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@b5de9ac
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5a8d676e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5f3f3d00
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@12aa519b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3d798e76
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@536da29c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module ]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3a70575
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@39e3ea78
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5fbae40
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3568ea59
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6a2badb1
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name, user enters 'Customer' into add meeting name]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@65f5cae3
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name, user enters 'Customer' into add meeting name, user types 'ARROW_DOWN,ENTER' in add meeting name]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@e0847a9
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name, user enters 'Customer' into add meeting name, user types 'ARROW_DOWN,ENTER' in add meeting name, user clicks on Click in meetings section]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6200b644
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name, user enters 'Customer' into add meeting name, user types 'ARROW_DOWN,ENTER' in add meeting name, user clicks on Click in meetings section, user clicks on ]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name, user enters 'Customer' into add meeting name, user types 'ARROW_DOWN,ENTER' in add meeting name, user clicks on Click in meetings section, user clicks on ]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name, user enters 'Customer' into add meeting name, user types 'ARROW_DOWN,ENTER' in add meeting name, user clicks on Click in meetings section, user clicks on ]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name, user enters 'Customer' into add meeting name, user types 'ARROW_DOWN,ENTER' in add meeting name, user clicks on Click in meetings section, user clicks on ]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name, user enters 'Customer' into add meeting name, user types 'ARROW_DOWN,ENTER' in add meeting name, user clicks on Click in meetings section, user clicks on ]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name, user enters 'Customer' into add meeting name, user types 'ARROW_DOWN,ENTER' in add meeting name, user clicks on Click in meetings section, user clicks on ]]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [schedule a meeting with the minimum required:Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strStartDate=04/Feb/2023, strEndDate=04/Feb/2023, strhourStart=08:30, strhourEnd=10:30} [Given the user has been sent to the Test page [User open up [user opens the Open up page]], When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | [User login [user enters 'admin' into Enter the username, user enters 'serenity' into Enter the password, user clicks on Click on the button to access the platform]], And we schedule the meeting
+| strMeetingName | strMeetingType | strStartDate | strEndDate | strhourStart | strhourEnd |
+| planning | Customer | 04/Feb/2023 | 04/Feb/2023 | 08:30 | 10:30 | [User schedule [user clicks on Click in meeting module , user clicks on Click in meetings section, user clicks on Click in meetings section, user enters 'planning' into add meeting name, user clicks on add meeting name, user enters 'Customer' into add meeting name, user types 'ARROW_DOWN,ENTER' in add meeting name, user clicks on Click in meetings section, user clicks on ]]]]
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: schedule a meeting with the minimum required
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
