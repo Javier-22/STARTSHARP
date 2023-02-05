@@ -21,8 +21,8 @@ Feature: perform the tests on the start sharp portal
 And he user clicks on the Northwind module, register the products
   |strProductName  |strSupplier  |strCategory|strQuantityPerU   | strUnitPrice    |strUnitsInStock   | strUnitsOnOrder    |strReorderLevel  |
   |<strProductName>| <strSupplier> | <strCategory>|<strQuantityPerU> | <strUnitPrice> |<strUnitsInStock> |<strUnitsOnOrder>   |<strReorderLevel>|
-
+Then We verify if the product was saved by clicking on the first row of the list
 Examples:
  |strUserName    |strpassword  |strProductName  |strSupplier               |strCategory       |strQuantityPerU    | strUnitPrice    |strUnitsInStock | strUnitsOnOrder    |strReorderLevel|
- |admin          | serenity    |     yuca       | Formaggi Fortini s.r.l.  |  produce         | 15 - 300 g rounds |     150         |   100          |       20           |  10           |
+ |admin          | serenity    |     confite      | Formaggi Fortini s.r.l.  |  produce         | 15 - 300 g rounds |     150         |   100          |       20           |  10           |
 

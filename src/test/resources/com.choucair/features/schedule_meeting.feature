@@ -12,16 +12,16 @@ Feature: perform the tests on the start sharp portal
 
 
   @RegressionMeeting @Meeting
-  Scenario Outline: schedule a meeting with the minimum required
+  Scenario Outline: schedule a new meeting
     Given the user has been sent to the Test page
     When I find the page I enter my credentials
       |strUserName    |strpassword  |
       |<strUserName> |<strpassword> |
     And we schedule the meeting
-      |strMeetingName  |strMeetingType     | strStartDate   |strEndDate    |strhourStart     |strhourEnd   |
-      |<strMeetingName>| <strMeetingType>  |<strStartDate>  | <strEndDate> | <strhourStart>  |<strhourEnd>|
-
+      |strMeetingName  |strMeetingType     |strMeetingNumber| strStartDate   |strEndDate    |strhourStart     |strhourEnd   |strLocation   |strUnit    |strOrganizedBy  |strReporter   |strAttendeeList    |
+      |<strMeetingName>| <strMeetingType>  |<strMeetingNumber>|<strStartDate>  | <strEndDate> | <strhourStart>  |<strhourEnd> | <strLocation>| <strUnit> |<strOrganizedBy>|<strReporter> | <strAttendeeList> |
+   Then then we verify that the meeting has been scheduled:planning
     Examples:
-      |strUserName    |strpassword  |strMeetingName  |strMeetingType      | strStartDate   |strEndDate   |strhourStart   |strhourEnd  |
-      |admin          | serenity    |    planning    |  Customer          |  04/Feb/2023    | 04/Feb/2023  | 08:30         |  10:30     |
+      |strUserName    |strpassword  |strMeetingName  |strMeetingType    |strMeetingNumber  | strStartDate   |strEndDate   |strhourStart   |strhourEnd  |strLocation |strUnit          |strOrganizedBy|strReporter|strAttendeeList|
+      |admin          | serenity    |    planning    |  Customer        |  WDM-05          |  2/Mar/2024    | 2/Mar/2024  | 08:30         |  11:30     |  ON SITE    |  Administration | Steven López | alexis lopez  |  James Jones   |
 

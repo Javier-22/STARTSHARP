@@ -57,5 +57,62 @@ public class DataModelScheduleMeeting {
     private  String strStartDate ;
     private  String strEndDate ;
     private  String strhourStart ;
-    private  String  strhourEnd;
+    private  String strhourEnd;
+
+    private  String strLocation;
+
+    public String getStrLocation() {
+        return strLocation;
+    }
+
+    public void setStrLocation(String strLocation) {
+        this.strLocation = strLocation;
+    }
+
+    public String getStrUnit() {
+        return strUnit;
+    }
+
+    public void setStrUnit(String strUnit) {
+        this.strUnit = strUnit;
+    }
+
+    public String getStrOrganizedBy() {
+        return strOrganizedBy;
+    }
+
+    public void setStrOrganizedBy(String strOrganizedBy) {
+        this.strOrganizedBy = strOrganizedBy;
+    }
+
+    public String getStrReporter() {
+        return strReporter;
+    }
+
+    public void setStrReporter(String strReporter) {
+        this.strReporter = strReporter;
+    }
+
+    public String getStrAttendeeList() {
+        return strAttendeeList;
+    }
+
+    public void setStrAttendeeList(String strAttendeeList) {
+        this.strAttendeeList = strAttendeeList;
+    }
+
+    private  String strUnit ;
+
+    public String getStrMeetingNumber() {
+        return strMeetingNumber;
+    }
+
+    public void setStrMeetingNumber(String strMeetingNumber) {
+        this.strMeetingNumber = strMeetingNumber;
+    }
+
+    private  String strMeetingNumber;
+    private  String strOrganizedBy;
+    private  String strReporter;
+    private  String strAttendeeList ;
 }

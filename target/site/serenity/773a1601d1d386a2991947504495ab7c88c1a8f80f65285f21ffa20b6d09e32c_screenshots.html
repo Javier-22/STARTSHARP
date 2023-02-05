@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Proyecto de demostración usando Serenity y Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="914db91f681e89c130b6634e040373f93a085604df27c564d71eb44ccec1a66d.html">Perform The Tests On The Start Sharp Portal</a></span>
+                > <span class="truncate-60"><a
+                    href="773a1601d1d386a2991947504495ab7c88c1a8f80f65285f21ffa20b6d09e32c.html">schedule a new meeting </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-02-2023 17:26</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Perform The Tests On The Start Sharp Portal</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                and verify the different quality attributes</p>
+<p>As a user,
+I want to schedule a quick meeting,
+for my work team
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b268a769ccbf8c912570c7aa34911d15716f472ac9f2589deb06157c2b456147.html">Meeting
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="65874dd822cbdc9691041e95c943930315324cef28a8147bd6b6fc83f241cefb.html">Regression Meeting
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">schedule a new meeting
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given the user has been sent to the Test page<br>When I find the page I enter my credentials<br><table class='embedded'><thead><th>strUserName</th><th>strpassword</th></thead><tbody><tr><td>&lt;strUserName&gt;</td><td>&lt;strpassword&gt;</td></tr></tbody></table><br>And we schedule the meeting<br><table class='embedded'><thead><th>strMeetingName</th><th>strMeetingType</th><th>strMeetingNumber</th><th>strStartDate</th><th>strEndDate</th><th>strhourStart</th><th>strhourEnd</th><th>strLocation</th><th>strUnit</th><th>strOrganizedBy</th><th>strReporter</th><th>strAttendeeList</th></thead><tbody><tr><td>&lt;strMeetingName&gt;</td><td>&lt;strMeetingType&gt;</td><td>&lt;strMeetingNumber&gt;</td><td>&lt;strStartDate&gt;</td><td>&lt;strEndDate&gt;</td><td>&lt;strhourStart&gt;</td><td>&lt;strhourEnd&gt;</td><td>&lt;strLocation&gt;</td><td>&lt;strUnit&gt;</td><td>&lt;strOrganizedBy&gt;</td><td>&lt;strReporter&gt;</td><td>&lt;strAttendeeList&gt;</td></tr></tbody></table><br>Then then we verify that the meeting has been scheduled:planning</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="8384834961b4a3ec4b7800bb934a2a458e881aadb5ef634f2b4e4e6327a7394e.png" title=" Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strMeetingNumber=WDM-05, strStartDate=2/Mar/2024, strEndDate=2/Mar/2024, strhourStart=08:30, strhourEnd=11:30, strLocation=ON SITE, strUnit=Administration, strOrganizedBy=Steven L&oacute;pez, strReporter=alexis lopez, strAttendeeList=James Jones}" width="1920"/>
+                <img src="8384834961b4a3ec4b7800bb934a2a458e881aadb5ef634f2b4e4e6327a7394e.png" title=" Given the user has been sent to the Test page" width="1920"/>
+                <img src="8384834961b4a3ec4b7800bb934a2a458e881aadb5ef634f2b4e4e6327a7394e.png" title=" User open up" width="1920"/>
+                <img src="8384834961b4a3ec4b7800bb934a2a458e881aadb5ef634f2b4e4e6327a7394e.png" title=" user opens the Open up page" width="1920"/>
+                <img src="8384834961b4a3ec4b7800bb934a2a458e881aadb5ef634f2b4e4e6327a7394e.png" title=" User open up (completed)" width="1920"/>
+                <img src="8384834961b4a3ec4b7800bb934a2a458e881aadb5ef634f2b4e4e6327a7394e.png" title=" Given the user has been sent to the Test page (completed)" width="1920"/>
+                <img src="16399b6717acc00c88916ebfbe572006c107d3e21d0feda0c7be474052968f2c.png" title=" When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity |" width="1920"/>
+                <img src="16399b6717acc00c88916ebfbe572006c107d3e21d0feda0c7be474052968f2c.png" title=" User login" width="1920"/>
+                <img src="16399b6717acc00c88916ebfbe572006c107d3e21d0feda0c7be474052968f2c.png" title=" user enters 'admin' into Enter the username" width="1920"/>
+                <img src="21f46f30d00a0a895dca15a5e6d40a63272024dda381c1c5eef812726a6dc605.png" title=" user enters 'serenity' into Enter the password" width="1920"/>
+                <img src="b70631c4eefe2ba15fb51e4964d6917f02303bda803271cd5cc64c86cb4b80ab.png" title=" user clicks on Click on the button to access the platform" width="1920"/>
+                <img src="b70631c4eefe2ba15fb51e4964d6917f02303bda803271cd5cc64c86cb4b80ab.png" title=" User login (completed)" width="1920"/>
+                <img src="b70631c4eefe2ba15fb51e4964d6917f02303bda803271cd5cc64c86cb4b80ab.png" title=" When I find the page I enter my credentials
+| strUserName | strpassword |
+| admin | serenity | (completed)" width="1920"/>
+                <img src="b82531cb7b59932d9aac61c4db6c84cfe765b13f1233f5f483ebe2fb57c4f282.png" title=" And we schedule the meeting
+| strMeetingName | strMeetingType | strMeetingNumber | strStartDate | strEndDate | strhourStart | strhourEnd | strLocation | strUnit | strOrganizedBy | strReporter | strAttendeeList |
+| planning | Customer | WDM-05 | 2/Mar/2024 | 2/Mar/2024 | 08:30 | 11:30 | ON SITE | Administration | Steven L&oacute;pez | alexis lopez | James Jones |" width="1920"/>
+                <img src="b82531cb7b59932d9aac61c4db6c84cfe765b13f1233f5f483ebe2fb57c4f282.png" title=" User schedule" width="1920"/>
+                <img src="b82531cb7b59932d9aac61c4db6c84cfe765b13f1233f5f483ebe2fb57c4f282.png" title=" user clicks on Click in meeting module " width="1920"/>
+                <img src="16bf59eec8f7d80ab7c2932ae735499a5b21131b406b8f8f8049fcc270985687.png" title=" user clicks on Click in meetings section" width="1920"/>
+                <img src="99f57d1dab61df8c6bb99d9dfbcedbbbfd9b3b326d274da51650308caf201453.png" title=" user clicks on Click in meetings section" width="1920"/>
+                <img src="0b0d933c37b522d9d7139ea190fe632adc49667dcdd2d32ae0ff83907c173ab7.png" title=" user enters 'planning' into add meeting name" width="1920"/>
+                <img src="900e6c188c7d883821e6cfdcefd24100c7b44a9803fcb1391414801b01918833.png" title=" user clicks on add meeting name" width="1920"/>
+                <img src="c21912dbfdd0b842442c659a81028d67dabcba4a2c8612dcdbc522bd37f5d265.png" title=" user enters 'Customer' into add meeting name" width="1920"/>
+                <img src="cd401e079bed6f018e0edca598327510e9ce3b8f139ce1d86918f5a33227fbdf.png" title=" user types 'ARROW_DOWN,ENTER' in add meeting name" width="1920"/>
+                <img src="d5b9121b5f96183a0c7f95727c3b66f25bdd56d3639eca9c07065f741e7bbfaa.png" title=" user clicks on " width="1920"/>
+                <img src="988869658203a70a046227a5c489c5a0e3e634d16d35e1c1b065f08138a96cea.png" title=" user select Mar on Select month" width="1920"/>
+                <img src="d1e87b5b53fa3531c2cdfdf28c64bd7d58d81eeab1894d254c4c54b07955cb89.png" title=" user select 2024 on Select Year" width="1920"/>
+                <img src="f510779648ec34497034fd921326c2f6a28fe808a43c5c2733ae96187e95fa0c.png" title=" user select 08:30 on " width="1920"/>
+                <img src="5b1a3c9ab57048ea8d3fcf59b924aac92ededd972eea7db82221ef1f13b4030d.png" title=" user clicks on " width="1920"/>
+                <img src="4002f759be6a9911372b6a32078c2a3684c5468101baecb80c06ac261e3310a8.png" title=" user select Mar on Select month" width="1920"/>
+                <img src="7f4b444d64d965e9c85cbe59715e6720ac87deb3101f2801a68caac1daa94850.png" title=" user select 2024 on Select Year" width="1920"/>
+                <img src="10d5a446b6a4ef31eeafb15235323f2c603281fc3a8def28bd5e4db36dad5a31.png" title=" user select 11:30 on " width="1920"/>
+                <img src="136ad9180523baf728a1684090bead6c5add0a9c8f0ae6a29a9cf89915c3edbe.png" title=" user enters 'WDM-05' into add meeting name" width="1920"/>
+                <img src="9692f4c5cb2737a3639543d78d1157c52f2c09841803914b671c68504e26a040.png" title=" user clicks on " width="1920"/>
+                <img src="4f467c508a0bdcdd636a28f24f36907053c91fdeab7853a6212b63075a44ce02.png" title=" user enters 'ON SITE' into " width="1920"/>
+                <img src="ee75199527aaa67bf4df51571001ed11482c4a39706a57e1f027641d86da49a3.png" title=" user types 'ARROW_DOWN,ENTER' in " width="1920"/>
+                <img src="9159a94e2582265611ae15e7f5b56ad152b1c42976f814f743c0fd382b6ba028.png" title=" user clicks on " width="1920"/>
+                <img src="6e661abe1af5fe12e89adb46c2c0db1b7e441e5f54c1a98470eebd1227deae3a.png" title=" user enters 'Administration' into " width="1920"/>
+                <img src="7a5c1e4b5858c5da0248df980ac91683e527b4fa59c87dda9d320f95df077b4e.png" title=" user types 'ARROW_DOWN,ENTER' in " width="1920"/>
+                <img src="bc6387291814cfaa95fce5ad3c6ab1143edcb497a7861ad98c8753fa4addeddb.png" title=" user clicks on " width="1920"/>
+                <img src="bd7c9ed26ca06faf8af2ed325de842605048ff674c197764ad160345e29cdced.png" title=" user enters 'Steven L&oacute;pez' into " width="1920"/>
+                <img src="ecfbc02f18d7b5184c3176bb3fd4ec5ed51b2782ae2af332bf186bcf2c9ac001.png" title=" user types 'ARROW_DOWN,ENTER' in " width="1920"/>
+                <img src="1bc9ba67ca5b26a906646400f7bc58bd694c3bf23c083982b22f7a88677c8610.png" title=" user clicks on " width="1920"/>
+                <img src="9b1a55ed0de8cc3bbe70c7fc2aeae93972296526ae3f6a7afefe06a684a849bf.png" title=" user enters 'alexis lopez' into " width="1920"/>
+                <img src="0d17dcf4b0824bf56e785e46e173423553607eb93dde12d314ddc7fdaddd4d74.png" title=" user types 'ARROW_DOWN,ENTER' in " width="1920"/>
+                <img src="cc60ca9c6665a8aef8b2000a6d9f1d769500092bf65f4c83bd18dd9b027c07fd.png" title=" user clicks on " width="1920"/>
+                <img src="40e2cb4fdf11a2b7ac2140bd2fd126d43fc9eec0990b6726ad5230014f817a0b.png" title=" user enters 'James Jones' into " width="1920"/>
+                <img src="2ad0c67134bbbb6894b6cd482284f9e573f1981b2dcc3a9d7595dc4b954745ed.png" title=" user types 'ARROW_DOWN,ENTER' in " width="1920"/>
+                <img src="ed7f09fa4a398760ee3f8d25297632e9103b85fbb701cfaa817c169b282d2909.png" title=" user clicks on " width="1920"/>
+                <img src="16bf59eec8f7d80ab7c2932ae735499a5b21131b406b8f8f8049fcc270985687.png" title=" user clicks on Click in meetings section" width="1920"/>
+                <img src="16bf59eec8f7d80ab7c2932ae735499a5b21131b406b8f8f8049fcc270985687.png" title=" User schedule (completed)" width="1920"/>
+                <img src="16bf59eec8f7d80ab7c2932ae735499a5b21131b406b8f8f8049fcc270985687.png" title=" And we schedule the meeting
+| strMeetingName | strMeetingType | strMeetingNumber | strStartDate | strEndDate | strhourStart | strhourEnd | strLocation | strUnit | strOrganizedBy | strReporter | strAttendeeList |
+| planning | Customer | WDM-05 | 2/Mar/2024 | 2/Mar/2024 | 08:30 | 11:30 | ON SITE | Administration | Steven L&oacute;pez | alexis lopez | James Jones | (completed)" width="1920"/>
+                <img src="1192235577141c6ae7b390b4f9ad2cc1eaba09b1c34e662fa9a3abcb81f86ede.png" title=" Then then we verify that the meeting has been scheduled:planning" width="1920"/>
+                <img src="1192235577141c6ae7b390b4f9ad2cc1eaba09b1c34e662fa9a3abcb81f86ede.png" title=" Then scheduled meeting" width="1920"/>
+                <img src="1192235577141c6ae7b390b4f9ad2cc1eaba09b1c34e662fa9a3abcb81f86ede.png" title=" Then then we verify that the meeting has been scheduled:planning (completed)" width="1920"/>
+                <img src="1192235577141c6ae7b390b4f9ad2cc1eaba09b1c34e662fa9a3abcb81f86ede.png" title=" Example: {strUserName=admin, strpassword=serenity, strMeetingName=planning, strMeetingType=Customer, strMeetingNumber=WDM-05, strStartDate=2/Mar/2024, strEndDate=2/Mar/2024, strhourStart=08:30, strhourEnd=11:30, strLocation=ON SITE, strUnit=Administration, strOrganizedBy=Steven L&oacute;pez, strReporter=alexis lopez, strAttendeeList=James Jones} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
